@@ -12,7 +12,6 @@
           Die A = new Die (50+(x*100),50+(y*100));
             A.roll();
             A.show();
-          System.out.print(y);
         }
       }
   }
@@ -44,7 +43,6 @@
               fill(0,0,0);
               ellipse(X+((i/3)*20)+15,Y+(a*10)+5,5,5);
               a = a + 1;
-             System.out.println();
             }
       }
       }
